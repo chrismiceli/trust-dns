@@ -321,9 +321,9 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "3.0.7"
+version = "3.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "12e8611f9ae4e068fa3e56931fded356ff745e70987ff76924a6e0ab1c8ef2e3"
+checksum = "5177fac1ab67102d8989464efd043c6ff44191b1557ec1ddd489b4f7e1447e77"
 dependencies = [
  "bitflags",
  "indexmap",
@@ -1648,7 +1648,7 @@ dependencies = [
 name = "trust-dns"
 version = "0.21.0-alpha.5"
 dependencies = [
- "clap 3.0.7",
+ "clap 3.1.2",
  "env_logger",
  "futures",
  "log",
@@ -1853,7 +1853,7 @@ dependencies = [
 name = "trust-dns-util"
 version = "0.21.0-alpha.5"
 dependencies = [
- "clap 3.0.7",
+ "clap 3.1.2",
  "console",
  "data-encoding",
  "env_logger",
