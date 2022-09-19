@@ -79,7 +79,7 @@ rand = "0.8"
 ring = { version = "0.16", optional = true, features = ["std"]}
 rustls = { version = "0.20.0", optional = true }
 serde = { version = "1.0", features = ["derive"], optional = true }
-thiserror = "1.0.20"
+thiserror = "1.0.35"
 time = "0.3"
 tokio = { version = "1.0", features = ["rt"] }
 trust-dns-proto = { version = "0.21.0-alpha.5", path = "../proto"}
